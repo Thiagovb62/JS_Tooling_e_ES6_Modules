@@ -1,0 +1,27 @@
+{
+  "name": "js_tooling_e_es6_modules",
+  "version": "1.0.0",
+  "description": "ferramentas do JS e Node.js (tooling) e  módulos do ES6 .",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./main.js -o ./bundle.js --presets=@babel/env -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thiagovb62/JS_Tooling_e_ES6_Modules.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thiagovb62/JS_Tooling_e_ES6_Modules/issues"
+  },
+  "homepage": "https://github.com/Thiagovb62/JS_Tooling_e_ES6_Modules#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2"
+  }
+}
